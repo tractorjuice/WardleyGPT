@@ -7,7 +7,8 @@ st.set_page_config(page_title="Ask WardleyGPT")
 st.title("Ask WardleyGPT Anything")
 st.sidebar.markdown("# Using AI, ask anything about Wardley Mapping")
 st.sidebar.markdown("Developed by Mark Craddock](https://twitter.com/mcraddock)", unsafe_allow_html=True)
-st.sidebar.markdown("Current Version: 0.0.9")
+st.sidebar.markdown("Current Version: 0.1.4")
+st.sidebar.markdown("Using GPT-4 API")
 st.sidebar.markdown("Wardley Mapping Community Content")
 st.sidebar.markdown("1M+ Vectors")
 
@@ -16,7 +17,7 @@ if "pkg" not in st.session_state:
     # Load the package instance stub.
     st.session_state.pkg = Steamship.use(
         "wardleymapsbok",
-        instance_handle="wardleymapsbok-3fe",
+        instance_handle="wardleybok-beg",
         api_key = st.secrets["STEAMSHIP_API_KEY"]
     )
 
