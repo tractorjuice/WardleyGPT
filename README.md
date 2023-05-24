@@ -28,7 +28,7 @@ pip install -r requirements.txt
 bash
 streamlit run app.py
 
-##Usage
+## Usage
 Enter your question in the text input field.
 
 Click the "Send" button to generate a response.
@@ -37,5 +37,5 @@ The generated answer will be displayed along with any associated community conte
 
 Click the "Clear" button to reset the question and response.
 
-##Contributing
+## Contributing
 Contributions are welcome! If you have any suggestions or improvements, please open an issue or submit a pull request.
