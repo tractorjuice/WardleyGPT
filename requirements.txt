@@ -1,6 +1,4 @@
 openai
 streamlit
-pypdf
-python-dotenv
 steamship
 streamlit-player
