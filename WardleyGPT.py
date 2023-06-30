@@ -27,14 +27,12 @@ with st.chat_message("user"):
     st.write("How can I help you today?")
 
 prompt = st.chat_input("Say something")
+
+#with st.form(key='query_form'):
+#    prompt = st.text_input("Question", value="What is inertia?")
+#    submit_button = st.form_submit_button(label='Send')
+
 if prompt:
-    st.write(f"User has sent the following prompt: {prompt}")
-
-with st.form(key='query_form'):
-    prompt = st.text_input("Question", value="What is inertia?")
-    submit_button = st.form_submit_button(label='Send')
-
-if submit_button:
     with st.spinner("Generating response..."):
         # Invoke the method
         response = st.session_state.pkg.invoke(
