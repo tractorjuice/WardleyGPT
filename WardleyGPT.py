@@ -16,13 +16,13 @@ st.sidebar.markdown("Wardley Mapping Community Content")
 st.sidebar.markdown("1M+ Vectors")
 
 # Load the package instance stub only if it has not been loaded before
-if "pkg" not in st.session_state:
-    # Load the package instance stub.
-    st.session_state.pkg = Steamship.use(
-        "wardleybok",
-        instance_handle="wardleybok-beg",
-        api_key = st.secrets["STEAMSHIP_API_KEY"]
-    )
+#if "pkg" not in st.session_state:
+#    # Load the package instance stub.
+#    st.session_state.pkg = Steamship.use(
+#        "wardleybok",
+#        instance_handle="wardleybok-beg",
+#        api_key = st.secrets["STEAMSHIP_API_KEY"]
+#    )
 
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 
