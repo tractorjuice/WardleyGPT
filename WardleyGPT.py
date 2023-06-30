@@ -23,10 +23,7 @@ if "pkg" not in st.session_state:
         api_key = st.secrets["STEAMSHIP_API_KEY"]
     )
 
-with st.chat_message("user"):
-    st.write("How can I help you today?")
-
-prompt = st.chat_input("Say something")
+prompt = st.chat_input("How can I help you today?")
 
 #with st.form(key='query_form'):
 #    prompt = st.text_input("Question", value="What is inertia?")
