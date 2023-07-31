@@ -3,7 +3,7 @@
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/mcraddock?style=social)](https://twitter.com/mcraddock)
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://wm2json.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://wardleygpt.streamlit.app/)
 
 This repository contains an application that uses AI-powered language models to answer questions about Wardley Mapping. It leverages the GPT-4 API and the WardleyBok package to provide insightful responses.
 
