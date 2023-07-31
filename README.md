@@ -21,7 +21,7 @@ To run the application, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/ask-wardleygpt.git
+   git clone https://github.com/your-username/wardleygpt.git
 
 bash
 pip install -r requirements.txt
